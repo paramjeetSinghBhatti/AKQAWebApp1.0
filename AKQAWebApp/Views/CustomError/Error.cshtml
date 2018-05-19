@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Error";
+}
+
+<h1 class="text-danger">Error.</h1>
+@{
+    int statusCode = ViewBag.StatusCode;
+    if (statusCode == 404)
+    {
+
+        <h2 class="text-danger">404 - Resource Not Found</h2>
+    }
+    else
+    {
+        <h2 class="text-danger">An error occurred while processing your request.</h2>
+    }
+}
+
+

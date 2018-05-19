@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKQAWebApp", "AKQAWebApp\AKQAWebApp.csproj", "{C72485FD-686C-454C-AB82-7B853371F4F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKQAWebApi", "AKQAWebApi\AKQAWebApi.csproj", "{C1A17E74-FB4C-4629-8D10-F3257BCDC091}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKQAWebApiUnitTest", "AKQAWebApiUnitTest\AKQAWebApiUnitTest.csproj", "{AA421A63-CD3E-43F8-A811-74A48FB1AB44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C72485FD-686C-454C-AB82-7B853371F4F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C72485FD-686C-454C-AB82-7B853371F4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C72485FD-686C-454C-AB82-7B853371F4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C72485FD-686C-454C-AB82-7B853371F4F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1A17E74-FB4C-4629-8D10-F3257BCDC091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A17E74-FB4C-4629-8D10-F3257BCDC091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A17E74-FB4C-4629-8D10-F3257BCDC091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A17E74-FB4C-4629-8D10-F3257BCDC091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA421A63-CD3E-43F8-A811-74A48FB1AB44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA421A63-CD3E-43F8-A811-74A48FB1AB44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA421A63-CD3E-43F8-A811-74A48FB1AB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA421A63-CD3E-43F8-A811-74A48FB1AB44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
